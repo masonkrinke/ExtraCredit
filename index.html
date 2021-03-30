@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This Is Mason's Square</h1>
+
+<p>Mason's Square can change colors.</p>
+
+<p>Simple really, just changing the source image.</p>
+
+
+
+
+<button onclick="document.getElementById('myImage').src='black.jpeg'">Black</button>
+
+<img id="myImage" src="black.jpeg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='white.png'">White</button>
+
+
+<p id="demo">Please don's click this button</p>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Great. Now we can't go back. Happy?";
+}
+</script>
+
+<button type="button" onclick="myFunction()">this one, don't press this one</button>
+
+
+
+<script>
+alert(Hey Taylor! Check out this alert box!);
+</script>
+
+
+</body>
+</html>
